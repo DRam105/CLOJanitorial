@@ -4,7 +4,6 @@ import { ServicesGrid } from "@/components/home/services-grid";
 import { IndustriesStrip } from "@/components/home/industries-strip";
 import { WhyChoose } from "@/components/home/why-choose";
 import { HowItWorks } from "@/components/home/how-it-works";
-import { BeforeAfter } from "@/components/home/before-after";
 import { Testimonials } from "@/components/home/testimonials";
 import { Certifications } from "@/components/home/certifications";
 import { ServiceAreaTeaser } from "@/components/home/service-area-teaser";
@@ -20,7 +19,6 @@ export default function HomePage() {
       <IndustriesStrip />
       <WhyChoose />
       <HowItWorks />
-      <BeforeAfter />
       <Testimonials />
       <Certifications />
       <ServiceAreaTeaser />
