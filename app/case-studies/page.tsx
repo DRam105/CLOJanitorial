@@ -35,12 +35,8 @@ export default function CaseStudiesPage() {
               <Reveal key={cs.slug} delay={i * 0.05}>
                 <Link
                   href={`/case-studies/${cs.slug}`}
-                  className="group grid overflow-hidden rounded-2xl border border-border bg-white shadow-soft transition-all hover:-translate-y-1 hover:shadow-soft-lg md:grid-cols-[1fr_1.4fr]"
+                  className="group block overflow-hidden rounded-2xl border border-border bg-white shadow-soft transition-all hover:-translate-y-1 hover:shadow-soft-lg"
                 >
-                  {/* Visual placeholder */}
-                  <div className="flex min-h-48 items-center justify-center bg-navy-section p-8 text-center text-sm text-white/60">
-                    [Before/after image]
-                  </div>
                   <div className="p-7">
                     <span className="inline-block rounded-full bg-brand-tint px-3 py-1 text-xs font-semibold text-brand">
                       {cs.industry}

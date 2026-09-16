@@ -75,26 +75,6 @@ export default async function CaseStudyDetailPage({
         </Container>
       </section>
 
-      {/* Before/after placeholder */}
-      <section className="bg-white py-14">
-        <Container>
-          <div className="grid gap-6 sm:grid-cols-2">
-            <div className="relative flex aspect-video items-center justify-center rounded-2xl bg-slate/15 text-sm text-slate">
-              <span className="absolute left-3 top-3 rounded-full bg-navy/80 px-3 py-1 text-xs font-semibold text-white">
-                Before
-              </span>
-              [Before photo]
-            </div>
-            <div className="relative flex aspect-video items-center justify-center rounded-2xl bg-brand-tint text-sm text-brand">
-              <span className="absolute left-3 top-3 rounded-full bg-brand-gradient px-3 py-1 text-xs font-semibold text-white">
-                After
-              </span>
-              [After photo]
-            </div>
-          </div>
-        </Container>
-      </section>
-
       {/* Challenge + solution */}
       <section className="bg-offwhite py-16 sm:py-20">
         <Container className="grid gap-12 lg:grid-cols-2">
