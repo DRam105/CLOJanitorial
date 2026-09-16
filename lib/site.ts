@@ -16,8 +16,8 @@ export const site = {
     "CLO Janitorial provides reliable, fully-insured commercial cleaning and janitorial services for offices, medical facilities, schools, retail and industrial spaces across Carlsbad and North County San Diego.",
 
   // Contact — REAL values provided by the client, except phone.
-  phone: "[ADD PHONE NUMBER]", // TODO: replace with real phone, e.g. "(760) 555-0123"
-  phoneHref: "tel:+10000000000", // TODO: replace with tel: link matching the phone above
+  phone: "(760) 316-1201",
+  phoneHref: "tel:+17603161201",
   email: "info@clojanitorial.com",
 
   address: {

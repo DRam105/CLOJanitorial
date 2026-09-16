@@ -15,7 +15,7 @@ export function localBusinessJsonLd() {
     description: site.description,
     url: site.url,
     email: site.email,
-    // telephone intentionally omitted until a real number replaces the placeholder
+    telephone: site.phone,
     image: `${site.url}/opengraph-image`,
     logo: `${site.url}/logo.jpg`,
     address: {
