@@ -13,8 +13,10 @@ export const buttonLinkVariants = cva(
     variants: {
       variant: {
         // Bright blue gradient — primary conversion CTA
+        // NOTE: keep a single bg-* class here; tailwind-merge (via cn) would
+        // drop the first of two bg-* classes. Hover darkening via brightness.
         primary:
-          "bg-brand-gradient text-white shadow-soft hover:shadow-soft-lg hover:-translate-y-0.5 bg-brand-gradient-hover",
+          "bg-brand-gradient text-white shadow-soft hover:shadow-soft-lg hover:-translate-y-0.5 hover:brightness-[0.97]",
         // Solid navy
         navy: "bg-navy text-white hover:bg-navy-700 shadow-soft hover:-translate-y-0.5",
         // Outline on light backgrounds
